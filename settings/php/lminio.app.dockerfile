@@ -46,6 +46,6 @@ USER www
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
-ADD   local.ini /usr/local/etc/php/conf.d/local.ini
+ADD  local.ini /usr/local/etc/php/conf.d/local.ini
 
 CMD ["php-fpm"]
